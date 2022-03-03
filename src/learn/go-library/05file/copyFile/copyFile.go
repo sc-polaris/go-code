@@ -26,7 +26,7 @@ func CopyFile(dstName, srcName string) (written int64, err error) {
 }
 
 func main() {
-	_, err := CopyFile("dst.txt", "src.txt")
+	_, err := CopyFile("../dst.txt", "./src.txt")
 	if err != nil {
 		fmt.Println("copy file failed, err:", err)
 		return

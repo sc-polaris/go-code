@@ -26,7 +26,7 @@ perm：文件权限，一个八进制数。r（读）04，w（写）02，x（执
 */
 
 func main() {
-	file, err := os.OpenFile("write.txt", os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0666)
+	file, err := os.OpenFile("../write.txt", os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0666)
 	if err != nil {
 		fmt.Println("open file failed, err:", err)
 		return

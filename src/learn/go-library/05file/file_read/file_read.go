@@ -67,7 +67,7 @@ func main() {
 
 func main() {
 	// 只读方式打开当前目录下的xx.txt文件
-	file, err := os.Open("./read.txt")
+	file, err := os.Open("../read.txt")
 	if err != nil {
 		fmt.Println("open file failed!, err:", err)
 		return

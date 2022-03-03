@@ -9,7 +9,7 @@ import (
 
 // bufio按行读取示例
 func main() {
-	file, err := os.Open("./read.txt")
+	file, err := os.Open("../read.txt")
 	if err != nil {
 		fmt.Println("open file failed, err:", err)
 		return
