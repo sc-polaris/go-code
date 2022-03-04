@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 41. 包含min函数的栈-list">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/01/34链表中环的入口结点/main.go" afterDir="false" />
+    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 34. 链表中环的入口结点">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/02/35反转链表/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -67,7 +67,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable..is.expanded" value="false" />
@@ -85,11 +85,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Algorithm" />
       <recent name="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/01/41包含min函数的栈/list" />
       <recent name="$PROJECT_DIR$/src/learn/go-library/08Context/01为什么需要Context/02全局变量方式" />
       <recent name="$PROJECT_DIR$/src/learn/go-library/08Context/01为什么需要Context/01基本示例" />
       <recent name="$PROJECT_DIR$/src/learn/go-library/08Context/01为什么需要Context" />
-      <recent name="$PROJECT_DIR$/src/learn/go-library/03flag/args" />
     </key>
   </component>
   <component name="RunManager">
@@ -130,7 +130,8 @@
     <MESSAGE value="AcWing 1048. 鸡蛋的硬度" />
     <MESSAGE value="AcWing 41. 包含min函数的栈-数组模拟" />
     <MESSAGE value="AcWing 41. 包含min函数的栈-list" />
-    <option name="LAST_COMMIT_MESSAGE" value="AcWing 41. 包含min函数的栈-list" />
+    <MESSAGE value="AcWing 34. 链表中环的入口结点" />
+    <option name="LAST_COMMIT_MESSAGE" value="AcWing 34. 链表中环的入口结点" />
   </component>
   <component name="VgoProject">
     <environment>
