@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/01/1452寻找矩阵的极小值/main.go" afterDir="false" />
+    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 1452. 寻找矩阵的极小值">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/01/1048鸡蛋的硬度/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +126,8 @@
     </ignored-roots>
     <MESSAGE value="release version v0.1.0" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="AcWing 1452. 寻找矩阵的极小值" />
+    <option name="LAST_COMMIT_MESSAGE" value="AcWing 1452. 寻找矩阵的极小值" />
   </component>
   <component name="VgoProject">
     <environment>
