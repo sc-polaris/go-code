@@ -12,7 +12,7 @@ var dx = [4]int{0, 1, 0, -1}
 var dy = [4]int{1, 0, -1, 0}
 
 func main() {
-	fmt.Scanln(&n, &m)
+	_, _ = fmt.Scanln(&n, &m)
 
 	for x, y, k, d := 0, 0, 1, 0; k <= m*n; k++ {
 		res[x][y] = k
