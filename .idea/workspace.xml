@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 1452. 寻找矩阵的极小值">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/01/1048鸡蛋的硬度/main.go" afterDir="false" />
+    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 1048. 鸡蛋的硬度">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/01/41包含min函数的栈/list/list.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/01/41包含min函数的栈/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -67,7 +68,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable..is.expanded" value="false" />
@@ -81,15 +82,15 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/01/41包含min函数的栈/list" />
       <recent name="$PROJECT_DIR$/src/learn/go-library/08Context/01为什么需要Context/02全局变量方式" />
       <recent name="$PROJECT_DIR$/src/learn/go-library/08Context/01为什么需要Context/01基本示例" />
       <recent name="$PROJECT_DIR$/src/learn/go-library/08Context/01为什么需要Context" />
       <recent name="$PROJECT_DIR$/src/learn/go-library/03flag/args" />
-      <recent name="$PROJECT_DIR$/src/learn/go-base/16NetWork/TCP/server" />
     </key>
   </component>
   <component name="RunManager">
@@ -127,7 +128,8 @@
     <MESSAGE value="release version v0.1.0" />
     <MESSAGE value="test" />
     <MESSAGE value="AcWing 1452. 寻找矩阵的极小值" />
-    <option name="LAST_COMMIT_MESSAGE" value="AcWing 1452. 寻找矩阵的极小值" />
+    <MESSAGE value="AcWing 1048. 鸡蛋的硬度" />
+    <option name="LAST_COMMIT_MESSAGE" value="AcWing 1048. 鸡蛋的硬度" />
   </component>
   <component name="VgoProject">
     <environment>
