@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 1054. 股票买卖">
+    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="go-io-模版">
       <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/03/1055股票买卖II/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/io/io.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/02/173矩阵距离/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/02/173矩阵距离/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +139,8 @@
     <MESSAGE value="AcWing 797. 差分" />
     <MESSAGE value="AcWing 173. 矩阵距离" />
     <MESSAGE value="AcWing 1054. 股票买卖" />
-    <option name="LAST_COMMIT_MESSAGE" value="AcWing 1054. 股票买卖" />
+    <MESSAGE value="go-io-模版" />
+    <option name="LAST_COMMIT_MESSAGE" value="go-io-模版" />
   </component>
   <component name="VgoProject">
     <environment>
