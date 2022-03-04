@@ -21,8 +21,9 @@ n个人变为n-1个人用的是a[0]，从n-1个人变为n-2个人我们用的是
 const N int = 1010
 
 var (
-	n, m, T int
-	a       [N]int
+	T    int
+	n, m int
+	a    [N]int
 )
 
 func main() {
