@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 1058. 股票买卖V-DP">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/03/1059股票买卖VI/main.go" afterDir="false" />
+    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 1059. 股票买卖VI-DP">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/03/2-01背包问题/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +148,8 @@
     <MESSAGE value="AcWing 1055. 股票买卖III-DP状态机" />
     <MESSAGE value="AcWing 1057. 股票买卖IV-DP" />
     <MESSAGE value="AcWing 1058. 股票买卖V-DP" />
-    <option name="LAST_COMMIT_MESSAGE" value="AcWing 1058. 股票买卖V-DP" />
+    <MESSAGE value="AcWing 1059. 股票买卖VI-DP" />
+    <option name="LAST_COMMIT_MESSAGE" value="AcWing 1059. 股票买卖VI-DP" />
   </component>
   <component name="VgoProject">
     <environment>
