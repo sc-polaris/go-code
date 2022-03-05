@@ -41,20 +41,31 @@ func main() {
 		for i := 1; i < n; i++ {
 			f[i][0] = max(f[i-1][0], f[i-1][2])
 			f[i][1] = max(f[i-1][1], f[i-1][0]-w[i])
-			f[i][2] = f[i-1][1] + w[i]
+			f[i][2] = max(f[i-1][2], f[i-1][1]+w[i])
 		}
 
 		fmt.Fprintln(ot, max(f[n-1][0], f[n-1][2]))
+	*/
+
+	/*	一维数组：
+		// f[0]: 不持股且当天没卖出
+		// f[1]: 持股
+		// f[2]: 不持股且当天卖出
+		f[0], f[1], f[2] = 0, -w[0], 0
+		for i := 1; i < n; i++ {
+			new0 := max(f[0], f[2])
+			new1 := max(f[1], f[0]-w[i])
+			new2 := max(f[2], f[1]+w[i])
+			f[0], f[1], f[2] = new0, new1, new2
+		}
+		fmt.Fprintln(ot, max(f[0], f[2]))
 	*/
 	// f[0]: 不持股且当天没卖出
 	// f[1]: 持股
 	// f[2]: 不持股且当天卖出
 	f[0], f[1], f[2] = 0, -w[0], 0
 	for i := 1; i < n; i++ {
-		new0 := max(f[0], f[2])
-		new1 := max(f[1], f[0]-w[i])
-		new2 := f[1] + w[i]
-		f[0], f[1], f[2] = new0, new1, new2
+		f[0], f[1], f[2] = max(f[0], f[2]), max(f[1], f[0]-w[i]), max(f[2], f[1]+w[i])
 	}
 	fmt.Fprintln(ot, max(f[0], f[2]))
 }
