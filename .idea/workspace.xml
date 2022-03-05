@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 1055. 股票买卖III-DP状态机">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/03/1057股票买卖IV/main.go" afterDir="false" />
+    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 1057. 股票买卖IV-DP">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/03/1058股票买卖V/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -67,7 +67,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable..is.expanded" value="false" />
@@ -146,7 +146,8 @@
     <MESSAGE value="AcWing 1056. 股票买卖III-DP状态机" />
     <MESSAGE value="AcWing 1055. 股票买卖II-DP状态机" />
     <MESSAGE value="AcWing 1055. 股票买卖III-DP状态机" />
-    <option name="LAST_COMMIT_MESSAGE" value="AcWing 1055. 股票买卖III-DP状态机" />
+    <MESSAGE value="AcWing 1057. 股票买卖IV-DP" />
+    <option name="LAST_COMMIT_MESSAGE" value="AcWing 1057. 股票买卖IV-DP" />
   </component>
   <component name="VgoProject">
     <environment>
