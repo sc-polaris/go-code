@@ -58,13 +58,13 @@ func main() {
 	}
 
 	fmt.Fprintln(ot, f[n-1][0])
-	/*	优化：
+	/*	优化一维：
 		// 第1天: 未持股/持股
-		f0, f1 := 0, -w[0]
+		f[0], f[1] := 0, -w[0]
 		for i := 1; i < n; i++ {
-			f0, f1 = max(f0, f1+w[i]), max(f1, f0-w[i])
+			f[0], f[1] = max(f[0], f[1]+w[i]), max(f[1], f0-w[i])
 		}
 
-		fmt.Fprintln(ot, f0)
+		fmt.Fprintln(ot, f[0])
 	*/
 }
