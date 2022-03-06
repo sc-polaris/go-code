@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 1487. 取硬币">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/03/1488最短距离/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 1488. 最短距离">
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/03/1488最短距离/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/03/1488最短距离/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +123,6 @@
       <path value="$PROJECT_DIR$/src/learn/go-base/11Package/holiday" />
       <path value="$PROJECT_DIR$/src/learn/go-base/11Package/holiday/hello" />
     </ignored-roots>
-    <MESSAGE value="AcWing 41. 包含min函数的栈-list" />
     <MESSAGE value="AcWing 34. 链表中环的入口结点" />
     <MESSAGE value="AcWing 35. 反转链表" />
     <MESSAGE value="AcWing 1453. 移掉K位数字" />
@@ -149,7 +147,8 @@
     <MESSAGE value="AcWing 4. 完全背包问题I" />
     <MESSAGE value="AcWing t. 完全背包问题II" />
     <MESSAGE value="AcWing 1487. 取硬币" />
-    <option name="LAST_COMMIT_MESSAGE" value="AcWing 1487. 取硬币" />
+    <MESSAGE value="AcWing 1488. 最短距离" />
+    <option name="LAST_COMMIT_MESSAGE" value="AcWing 1488. 最短距离" />
   </component>
   <component name="VgoProject">
     <environment>

@@ -17,10 +17,10 @@ var (
 	in       = bufio.NewReader(os.Stdin)
 	ot       = bufio.NewWriter(os.Stdout)
 	n, m     int
-	h        [N]int
+	h        = make([]int, N)
 	e, ne, w [M]int
 	idx      int
-	dist     [N]int
+	dist     = make([]int, N)
 	st       [N]bool
 )
 
@@ -33,10 +33,17 @@ func add(a, b, c int) {
 	idx++
 }
 
-func spfa() {
-	for i := 0; i <= n; i++ {
-		dist[i] = 0x3f3f3f3f
+func memset(a []int, v int) {
+	for i := range a {
+		a[i] = v
 	}
+}
+
+func spfa() {
+	memset(dist, 0x3f3f3f3f)
+	//for i := 0; i <= n; i++ {
+	//	dist[i] = 0x3f3f3f3f
+	//}
 	var q []int // 队列
 	dist[0] = 0
 	st[0] = true
@@ -64,10 +71,11 @@ func main() {
 
 	fmt.Fscan(in, &n, &m)
 
+	memset(h, -1)
 	// 初始化头节点
-	for i := 0; i <= n; i++ {
-		h[i] = -1
-	}
+	//for i := 0; i <= n; i++ {
+	//	h[i] = -1
+	//}
 
 	for ; m > 0; m-- {
 		var a, b, c int
