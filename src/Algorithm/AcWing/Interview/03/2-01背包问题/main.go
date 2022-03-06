@@ -33,7 +33,7 @@ func main() {
 		for i := 1; i <= n; i++ {
 			var v, w int
 			fmt.Fscan(in, &v, &w)
-			for j := 1; j <= m; j++ {
+			for j := 0; j <= m; j++ {
 				if j < v {
 					f[i][j] = f[i-1][j]
 				} else {
