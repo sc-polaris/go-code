@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 30. 正则表达式匹配">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/04/18重建二叉树/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/04/18重建二叉树非递归/main.go" afterDir="false" />
+    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 18. 重建二叉树">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/04/19二叉树的下一个节点/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +124,6 @@
       <path value="$PROJECT_DIR$/src/learn/go-base/11Package/holiday" />
       <path value="$PROJECT_DIR$/src/learn/go-base/11Package/holiday/hello" />
     </ignored-roots>
-    <MESSAGE value="AcWing 1054. 股票买卖" />
     <MESSAGE value="go-io-模版" />
     <MESSAGE value="AcWing 1055. 股票买卖 II" />
     <MESSAGE value="AcWing 1055. 股票买卖 II dp状态机" />
@@ -150,7 +148,8 @@
     <MESSAGE value="AcWing 1259. 二叉树遍历" />
     <MESSAGE value="AcWing 1491. 圆桌座位" />
     <MESSAGE value="AcWing 30. 正则表达式匹配" />
-    <option name="LAST_COMMIT_MESSAGE" value="AcWing 30. 正则表达式匹配" />
+    <MESSAGE value="AcWing 18. 重建二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="AcWing 18. 重建二叉树" />
   </component>
   <component name="VgoProject">
     <environment>
