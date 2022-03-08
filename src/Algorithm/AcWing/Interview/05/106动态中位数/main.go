@@ -16,7 +16,7 @@ func (h minHeap) Less(i, j int) bool { return h[i] < h[j] }
 func (h minHeap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 
 func (h *minHeap) Empty() bool {
-	return len(*h) == 0
+	return h.Len() == 0
 }
 
 func (h *minHeap) Top() int {
@@ -27,13 +27,9 @@ func (h *minHeap) Push(x interface{}) {
 	*h = append(*h, x.(int))
 }
 
-// Pop 删除堆尾的元素，注意和heap.Pop()区分
-func (h *minHeap) Pop() interface{} {
-	old := *h
-	n := len(old)
-	x := old[n-1]
-	*h = old[0 : n-1]
-	return x
+func (h *minHeap) Pop() (v interface{}) {
+	*h, v = (*h)[:h.Len()-1], (*h)[h.Len()-1]
+	return
 }
 
 // 大根堆
@@ -56,12 +52,9 @@ func (h *maxHeap) Push(x interface{}) {
 	*h = append(*h, x.(int))
 }
 
-func (h *maxHeap) Pop() interface{} {
-	old := *h
-	n := len(old)
-	x := old[n-1]
-	*h = old[:n-1]
-	return x
+func (h *maxHeap) Pop() (v interface{}) {
+	*h, v = (*h)[:h.Len()-1], (*h)[h.Len()-1]
+	return
 }
 
 var (
@@ -96,8 +89,8 @@ func main() {
 			}
 
 			// 如果有偶数个数，上面和下面一样多，如果有奇数个数，则下面比上面多一个
-			if down.Len() > up.Len()+1 {
-				// 下面多了挤一个放上面
+			// 如果下面比上面多超过1个
+			if down.Len()-up.Len() >= 2 {
 				heap.Push(up, down.Top())
 				heap.Pop(down)
 			}
