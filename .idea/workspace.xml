@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 19. 二叉树的下一个节点">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/05/104货仓选址/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/05/104货仓选址快速选择算法/main.go" afterDir="false" />
+    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 104. 货仓选址">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/05/104货仓选址快速选择算法2/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -125,7 +124,6 @@
       <path value="$PROJECT_DIR$/src/learn/go-base/11Package/holiday" />
       <path value="$PROJECT_DIR$/src/learn/go-base/11Package/holiday/hello" />
     </ignored-roots>
-    <MESSAGE value="AcWing 1055. 股票买卖 II" />
     <MESSAGE value="AcWing 1055. 股票买卖 II dp状态机" />
     <MESSAGE value="AcWing 1055. 股票买卖" />
     <MESSAGE value="AcWing 1055. 股票买卖-DP状态机" />
@@ -150,7 +148,8 @@
     <MESSAGE value="AcWing 30. 正则表达式匹配" />
     <MESSAGE value="AcWing 18. 重建二叉树" />
     <MESSAGE value="AcWing 19. 二叉树的下一个节点" />
-    <option name="LAST_COMMIT_MESSAGE" value="AcWing 19. 二叉树的下一个节点" />
+    <MESSAGE value="AcWing 104. 货仓选址" />
+    <option name="LAST_COMMIT_MESSAGE" value="AcWing 104. 货仓选址" />
   </component>
   <component name="VgoProject">
     <environment>
