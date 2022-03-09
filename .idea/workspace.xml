@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 92. 递归实现指数型枚举">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/06/94递归实现排列型枚举/main.go" afterDir="false" />
+    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 94. 递归实现排列型枚举">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/06/1537递归实现排列类型枚举II/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +124,6 @@
       <path value="$PROJECT_DIR$/src/learn/go-base/11Package/holiday" />
       <path value="$PROJECT_DIR$/src/learn/go-base/11Package/holiday/hello" />
     </ignored-roots>
-    <MESSAGE value="AcWing 1059. 股票买卖VI-DP" />
     <MESSAGE value="AcWing 2. 01背包问题" />
     <MESSAGE value="AcWing 3. 完全背包问题" />
     <MESSAGE value="AcWing 4. 完全背包问题I" />
@@ -149,7 +148,8 @@
     <MESSAGE value="AcWing 786. 第k个数" />
     <MESSAGE value="AcWing 146. 序列" />
     <MESSAGE value="AcWing 92. 递归实现指数型枚举" />
-    <option name="LAST_COMMIT_MESSAGE" value="AcWing 92. 递归实现指数型枚举" />
+    <MESSAGE value="AcWing 94. 递归实现排列型枚举" />
+    <option name="LAST_COMMIT_MESSAGE" value="AcWing 94. 递归实现排列型枚举" />
   </component>
   <component name="VgoProject">
     <environment>
