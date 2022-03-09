@@ -61,10 +61,14 @@ func main() {
 			f[0][i] = -w[0]
 		}
 
+			for i := 1; i < k*2; i += 2 {
+			f[0][i] = -w[0]
+		}
+
 		for i := 1; i < n; i++ {
-			for j := 0; j < k*2-1; j += 2 {
-				f[i][j+1] = max(f[i-1][j+1], f[i-1][j]-w[i])
-				f[i][j+2] = max(f[i-1][j+2], f[i-1][j+1]+w[i])
+			for j := 1; j < k*2; j += 2 {
+				f[i][j] = max(f[i-1][j], f[i-1][j-1]-w[i])
+				f[i][j+1] = max(f[i-1][j+1], f[i-1][j]+w[i])
 			}
 		}
 
