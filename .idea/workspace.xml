@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 93. 递归实现组合型枚举 方法2">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/07/1573递归实现组合型枚举II/01/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/07/1573递归实现组合型枚举II/02/main.go" afterDir="false" />
+    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 1573. 递归实现组合型枚举 II">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/07/55连续子数组的最大和/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +124,6 @@
       <path value="$PROJECT_DIR$/src/learn/go-base/11Package/holiday" />
       <path value="$PROJECT_DIR$/src/learn/go-base/11Package/holiday/hello" />
     </ignored-roots>
-    <MESSAGE value="AcWing 851. spfa求最短路" />
     <MESSAGE value="AcWing 1489. 田忌赛马" />
     <MESSAGE value="AcWing 1490. 最长上升子串" />
     <MESSAGE value="AcWing 1259. 二叉树遍历" />
@@ -150,7 +148,8 @@
     <MESSAGE value="AcWing 1572. 递归实现指数型枚举 II" />
     <MESSAGE value="AcWing 93. 递归实现组合型枚举 方法1" />
     <MESSAGE value="AcWing 93. 递归实现组合型枚举 方法2" />
-    <option name="LAST_COMMIT_MESSAGE" value="AcWing 93. 递归实现组合型枚举 方法2" />
+    <MESSAGE value="AcWing 1573. 递归实现组合型枚举 II" />
+    <option name="LAST_COMMIT_MESSAGE" value="AcWing 1573. 递归实现组合型枚举 II" />
   </component>
   <component name="VgoProject">
     <environment>
