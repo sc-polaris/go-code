@@ -6,10 +6,6 @@ import (
 	"os"
 )
 
-const (
-	N = 1010
-)
-
 type Node struct {
 	x int
 	y int
@@ -41,8 +37,9 @@ func bfs() {
 
 	dx, dy := []int{0, 1, 0, -1}, []int{1, 0, -1, 0}
 	for len(q) > 0 {
-		x, y := q[0].x, q[0].y
+		t := q[0]
 		q = q[1:]
+		x, y := t.x, t.y
 		for i := 0; i < 4; i++ {
 			a, b := x+dx[i], y+dy[i]
 			if a >= 0 && a < n && b >= 0 && b < m && dist[a][b] == -1 {
