@@ -8,21 +8,31 @@ import (
 
 const (
 	N = 1010
-	M = N * N
 )
 
-var n, m int
-var g [N][]byte
-var dist [N][N]int
+type Node struct {
+	x int
+	y int
+}
+
+var (
+	in   = bufio.NewReader(os.Stdin)
+	ot   = bufio.NewWriter(os.Stdout)
+	n, m int
+	g    [][]byte
+	dist [][]int
+)
 
 func bfs() {
-	var q [][]int
+	var q []Node
 
+	dist = make([][]int, n)
 	for i := 0; i < n; i++ {
+		dist[i] = make([]int, m)
 		for j := 0; j < m; j++ {
 			if g[i][j] == '1' {
 				dist[i][j] = 0
-				q = append(q, []int{i, j})
+				q = append(q, Node{x: i, y: j})
 			} else {
 				dist[i][j] = -1
 			}
@@ -31,35 +41,35 @@ func bfs() {
 
 	dx, dy := []int{0, 1, 0, -1}, []int{1, 0, -1, 0}
 	for len(q) > 0 {
-		x, y := q[0][0], q[0][1]
+		x, y := q[0].x, q[0].y
 		q = q[1:]
 		for i := 0; i < 4; i++ {
 			a, b := x+dx[i], y+dy[i]
 			if a >= 0 && a < n && b >= 0 && b < m && dist[a][b] == -1 {
 				dist[a][b] = dist[x][y] + 1
-				q = append(q, []int{a, b})
+				q = append(q, Node{x: a, y: b})
 			}
 		}
 	}
 }
 
 func main() {
-	in := bufio.NewReader(os.Stdin)
-	out := bufio.NewWriter(os.Stdout)
-	fmt.Fscanln(in, &n, &m)
+	defer ot.Flush()
 
-	for i := 0; i < n; i++ {
-		fmt.Fscanln(in, &g[i])
+	fmt.Fscan(in, &n, &m)
+	g = make([][]byte, n)
+
+	for i := range g {
+		fmt.Fscan(in, &g[i])
 	}
 
 	bfs()
 
 	for i := 0; i < n; i++ {
 		for j := 0; j < m; j++ {
-			fmt.Fprintf(out, "%d ", dist[i][j])
+			fmt.Fprintf(ot, "%d ", dist[i][j])
 		}
-		fmt.Fprintln(out)
+		fmt.Fprintln(ot)
 	}
 
-	out.Flush()
 }
