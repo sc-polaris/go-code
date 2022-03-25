@@ -5,30 +5,32 @@ import (
 	"time"
 )
 
-var ch1 = make(chan int)
-var ch2 = make(chan int)
-
 type Foo struct {
+	firstChan  chan int
+	secondChan chan int
 }
 
 func (f *Foo) first() {
 	fmt.Println("first")
-	ch1 <- 1
+	f.firstChan <- 1
 }
 
 func (f *Foo) second() {
-	<-ch1
+	<-f.firstChan
 	fmt.Println("second")
-	ch2 <- 1
+	f.secondChan <- 1
 }
 
 func (f *Foo) third() {
-	<-ch2
+	<-f.secondChan
 	fmt.Println("third")
 }
 
 func main() {
-	f := &Foo{}
+	f := &Foo{
+		firstChan:  make(chan int),
+		secondChan: make(chan int),
+	}
 	go f.first()
 	go f.second()
 	go f.third()
