@@ -5,34 +5,28 @@ import (
 	"time"
 )
 
-type Foo struct {
-	firstChan  chan int
-	secondChan chan int
+var ch1 = make(chan int)
+var ch2 = make(chan int)
+
+func first() {
+	fmt.Println("1")
+	ch1 <- 1
 }
 
-func (f *Foo) first() {
-	fmt.Println("first")
-	f.firstChan <- 1
+func second() {
+	<-ch1
+	fmt.Println("2")
+	ch2 <- 1
 }
 
-func (f *Foo) second() {
-	<-f.firstChan
-	fmt.Println("second")
-	f.secondChan <- 1
-}
-
-func (f *Foo) third() {
-	<-f.secondChan
-	fmt.Println("third")
+func third() {
+	<-ch2
+	fmt.Println("3")
 }
 
 func main() {
-	f := &Foo{
-		firstChan:  make(chan int),
-		secondChan: make(chan int),
-	}
-	go f.first()
-	go f.second()
-	go f.third()
+	go first()
+	go second()
+	go third()
 	time.Sleep(time.Second) // 防止主线程退出，子线程没运行完
 }
