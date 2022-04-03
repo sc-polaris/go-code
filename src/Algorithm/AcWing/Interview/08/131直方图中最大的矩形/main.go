@@ -34,7 +34,7 @@ func main() {
 		}
 		h[0], h[n+1] = -1, -1
 
-		var q []int
+		q := make([]int, 0)
 		// 求左边界
 		q = append(q, 0)
 		for i := 1; i <= n; i++ {
@@ -56,7 +56,7 @@ func main() {
 			q = append(q, i)
 		}
 
-		var res int
+		res := 0
 		for i := 1; i <= n; i++ {
 			res = max(res, h[i]*(r[i]-l[i]-1))
 		}
