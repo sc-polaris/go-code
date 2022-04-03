@@ -26,41 +26,38 @@ func main() {
 		if n == 0 {
 			break
 		}
-		h := make([]int, n)
-		l := make([]int, n)
-		r := make([]int, n)
-		for i := range h {
+		h := make([]int, n+2)
+		l := make([]int, n+1)
+		r := make([]int, n+1)
+		for i := 1; i <= n; i++ {
 			fmt.Fscan(in, &h[i])
 		}
+		h[0], h[n+1] = -1, -1
 
-		q := make([]int, 0)
-		for i := 0; i < n; i++ {
-			for len(q) > 0 && h[q[len(q)-1]] >= h[i] {
+		var q []int
+		// 求左边界
+		q = append(q, 0)
+		for i := 1; i <= n; i++ {
+			for h[q[len(q)-1]] >= h[i] {
 				q = q[:len(q)-1]
 			}
-			if len(q) == 0 {
-				l[i] = -1
-			} else {
-				l[i] = q[len(q)-1]
-			}
+			l[i] = q[len(q)-1]
 			q = append(q, i)
 		}
 
 		q = make([]int, 0)
-		for i := n - 1; i >= 0; i-- {
-			for len(q) > 0 && h[q[len(q)-1]] >= h[i] {
+		// 求右边界
+		q = append(q, n+1)
+		for i := n; i >= 1; i-- {
+			for h[q[len(q)-1]] >= h[i] {
 				q = q[:len(q)-1]
 			}
-			if len(q) == 0 {
-				r[i] = n
-			} else {
-				r[i] = q[len(q)-1]
-			}
+			r[i] = q[len(q)-1]
 			q = append(q, i)
 		}
 
 		var res int
-		for i := 0; i < n; i++ {
+		for i := 1; i <= n; i++ {
 			res = max(res, h[i]*(r[i]-l[i]-1))
 		}
 		fmt.Fprintln(ot, res)
