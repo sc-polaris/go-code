@@ -34,8 +34,8 @@ func main() {
 		}
 		h[0], h[n+1] = -1, -1
 
-		q := make([]int, 0)
 		// 求左边界
+		q := make([]int, 0)
 		q = append(q, 0)
 		for i := 1; i <= n; i++ {
 			for h[q[len(q)-1]] >= h[i] {
