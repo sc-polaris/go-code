@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 43. 不分行从上往下打印二叉树">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/09/1611寻找峰值/main.go" afterDir="false" />
+    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 843. n-皇后问题 解法一">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/09/843n-皇后问题解法一/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -94,7 +94,15 @@
       <recent name="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/04" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-code" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/09/843n-皇后问题解法一/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-code" />
       <working_directory value="$PROJECT_DIR$" />
@@ -105,6 +113,11 @@
       <output_directory value="$PROJECT_DIR$/bin" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +151,6 @@
       <path value="$PROJECT_DIR$/src/learn/go-base/11Package/holiday" />
       <path value="$PROJECT_DIR$/src/learn/go-base/11Package/holiday/hello" />
     </ignored-roots>
-    <MESSAGE value="AcWing 146. 序列" />
     <MESSAGE value="AcWing 92. 递归实现指数型枚举" />
     <MESSAGE value="AcWing 94. 递归实现排列型枚举" />
     <MESSAGE value="AcWing 145. 超市" />
@@ -163,7 +175,8 @@
     <MESSAGE value="AcWing 454. 表达式求值" />
     <MESSAGE value="AcWing 454. 表达式求值完整版" />
     <MESSAGE value="AcWing 43. 不分行从上往下打印二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="AcWing 43. 不分行从上往下打印二叉树" />
+    <MESSAGE value="AcWing 1611. 寻找峰值" />
+    <option name="LAST_COMMIT_MESSAGE" value="AcWing 1611. 寻找峰值" />
   </component>
   <component name="VgoProject">
     <environment>
