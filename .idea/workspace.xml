@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 1613. 数独简单版">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/09/1612最大正方形/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/09/52数组中出现次数超过一半的数字/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
