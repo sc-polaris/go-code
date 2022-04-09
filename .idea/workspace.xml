@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 52. 数组中出现次数超过一半的数字">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/09/901滑雪/main.go" afterDir="false" />
+    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 901. 滑雪">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Interview/10/730机器人跳跃问题/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +155,6 @@
       <path value="$PROJECT_DIR$/src/learn/go-base/11Package/holiday" />
       <path value="$PROJECT_DIR$/src/learn/go-base/11Package/holiday/hello" />
     </ignored-roots>
-    <MESSAGE value="1057. 股票买卖 IV" />
     <MESSAGE value="AcWing 36. 合并两个排序的链表" />
     <MESSAGE value="AcWing 1572. 递归实现指数型枚举 II" />
     <MESSAGE value="AcWing 93. 递归实现组合型枚举 方法1" />
@@ -180,7 +179,8 @@
     <MESSAGE value="AcWing 843. n-皇后问题 解法二" />
     <MESSAGE value="AcWing 1613. 数独简单版" />
     <MESSAGE value="AcWing 52. 数组中出现次数超过一半的数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="AcWing 52. 数组中出现次数超过一半的数字" />
+    <MESSAGE value="AcWing 901. 滑雪" />
+    <option name="LAST_COMMIT_MESSAGE" value="AcWing 901. 滑雪" />
   </component>
   <component name="VgoProject">
     <environment>
