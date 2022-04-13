@@ -1,7 +1,7 @@
 package snow
 
 import (
-	"11Package/calc"
+	"../calc"
 	"fmt"
 )
 
