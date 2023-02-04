@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"bufio"
+	"fmt"
 	"os"
 )
 
@@ -18,9 +18,9 @@ func quickSort(q []int, l, r int) {
 
 	i, j, x := l-1, r+1, q[(l+r)>>1]
 	for i < j {
-		for i = i+1; q[i] < x; i++{
+		for i = i + 1; q[i] < x; i++ {
 		}
-		for j = j-1; q[j] > x; j--{
+		for j = j - 1; q[j] > x; j-- {
 		}
 		if i < j {
 			q[i], q[j] = q[j], q[i]
@@ -32,7 +32,7 @@ func quickSort(q []int, l, r int) {
 }
 
 func main() {
-    defer ot.Flush()
+	defer ot.Flush()
 
 	var n int
 	fmt.Fscan(in, &n)

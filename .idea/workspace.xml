@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="AcWing 167. 木棒">
+    <list default="true" id="1167c7ff-7234-45aa-acfa-3bf846eb093d" name="Changes" comment="package">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Base/05DP/bitmask-dp/91最短Hamilton路径/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/AcWing/Base/01Base-Algorithm/QuickSort/785快速排序/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Base/01Base-Algorithm/QuickSort/785快速排序/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/AcWing/Base/01Base-Algorithm/QuickSort/786第k个数/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/AcWing/Base/01Base-Algorithm/QuickSort/786第k个数/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +52,11 @@
     <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/learn/go-base/11Package/demo/demo.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/learn/go-base/11Package/init/init.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/learn/go-base/12Interface/go.mod" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/learn/go-base/12Interface/main.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/learn/go-base/11Package/init/init.go" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
