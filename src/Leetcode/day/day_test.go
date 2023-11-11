@@ -10,3 +10,9 @@ func Test(t *testing.T) {
 	res := successfulPairs(spells, potions, 7)
 	t.Log(res)
 }
+
+func Test2(t *testing.T) {
+	// 0 1 0 1
+	row := []int{0, 2, 1, 3}
+	t.Log(minSwapsCouples(row))
+}
