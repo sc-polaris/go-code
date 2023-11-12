@@ -16,3 +16,12 @@ func Test2(t *testing.T) {
 	row := []int{0, 2, 1, 3}
 	t.Log(minSwapsCouples(row))
 }
+
+func TestRangeModule(t *testing.T) {
+	obj := Constructor()
+	obj.AddRange(10, 20)
+	obj.RemoveRange(14, 16)
+	t.Log(obj.QueryRange(10, 14))
+	t.Log(obj.QueryRange(13, 15))
+	t.Log(obj.QueryRange(16, 17))
+}
