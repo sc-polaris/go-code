@@ -1,6 +1,7 @@
 package day
 
 import (
+	"math"
 	"testing"
 )
 
@@ -24,4 +25,8 @@ func TestRangeModule(t *testing.T) {
 	t.Log(obj.QueryRange(10, 14))
 	t.Log(obj.QueryRange(13, 15))
 	t.Log(obj.QueryRange(16, 17))
+}
+
+func TestMath(t *testing.T) {
+	t.Log(math.MaxInt32 / 2)
 }
