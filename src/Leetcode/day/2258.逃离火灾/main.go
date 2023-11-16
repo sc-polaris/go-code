@@ -1,4 +1,4 @@
-package day
+package _258_逃离火灾
 
 type pair struct{ x, y int }
 

@@ -1,4 +1,4 @@
-package day
+package _300_咒语和药水的成功对数
 
 import (
 	"sort"

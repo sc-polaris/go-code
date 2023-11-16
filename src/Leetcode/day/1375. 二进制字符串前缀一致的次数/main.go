@@ -1,4 +1,4 @@
-package day
+package _375__二进制字符串前缀一致的次数
 
 func numTimesAllBlue(flips []int) int {
 	n, res, right := len(flips), 0, 0

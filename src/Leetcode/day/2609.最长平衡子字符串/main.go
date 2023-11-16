@@ -1,4 +1,4 @@
-package day
+package _609_最长平衡子字符串
 
 func findTheLongestBalancedSubstring(s string) int {
 	res := 0
