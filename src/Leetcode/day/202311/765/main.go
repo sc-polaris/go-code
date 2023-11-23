@@ -1,4 +1,4 @@
-package _65__情侣牵手
+package main
 
 type unionFind struct {
 	parent, size []int

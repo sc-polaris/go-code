@@ -1,4 +1,4 @@
-package _300_咒语和药水的成功对数
+package main
 
 import (
 	"sort"

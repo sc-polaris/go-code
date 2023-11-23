@@ -1,4 +1,4 @@
-package _258_逃离火灾
+package main
 
 type pair struct{ x, y int }
 

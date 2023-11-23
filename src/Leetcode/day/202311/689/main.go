@@ -1,4 +1,4 @@
-package _89_Maximum_Sum_of_3_Non_Overlapping_Subarrays
+package main
 
 func maxSumOfThreeSubarrays(nums []int, k int) (ans []int) {
 	var sum1, maxSum1, maxSum1Idx int

@@ -1,4 +1,4 @@
-package _656__K_个元素的最大和
+package main
 
 import "slices"
 

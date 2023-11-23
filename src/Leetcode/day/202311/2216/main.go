@@ -1,4 +1,4 @@
-package _216__美化数组的最少删除数
+package _216
 
 func minDeletion(nums []int) int {
 	// 使用变量 cnt 代表已删除的元素个数，由于每次删除元素，剩余元素都会往前移动，因此当前下标为 i−cnt

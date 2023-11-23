@@ -1,4 +1,4 @@
-package _342数位和相等数对的最大和
+package main
 
 func maximumSum(nums []int) int {
 	ans := -1

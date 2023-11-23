@@ -1,4 +1,4 @@
-package _07__区域和检索___数组可修改
+package _07
 
 type BinaryIndexTree struct {
 	n int

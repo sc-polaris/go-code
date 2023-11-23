@@ -1,4 +1,4 @@
-package _410__HTML_实体解析器
+package main
 
 import "strings"
 

@@ -1,4 +1,4 @@
-package _15__Range_模块
+package main
 
 const N = 1e9
 
