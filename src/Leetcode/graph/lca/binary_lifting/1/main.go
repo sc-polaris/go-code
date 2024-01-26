@@ -8,23 +8,24 @@ type TreeAncestor [][]int
 
 func Constructor(n int, parent []int) TreeAncestor {
 	m := bits.Len(uint(n))
-	pa := make([][]int, n)
-	// pa[i][0] 父节点 pa[i][1] 爷爷节点
+	fa := make([][]int, n)
+	// fa[i][0] 父节点 fa[i][1] 爷爷节点
 	for i, p := range parent {
-		pa[i] = make([]int, m)
-		pa[i][0] = p
+		fa[i] = make([]int, m)
+		fa[i][0] = p
 	}
 
 	for i := 0; i < m-1; i++ {
 		for x := 0; x < n; x++ {
-			if p := pa[x][i]; p != -1 {
-				pa[x][i+1] = pa[p][i]
+			if p := fa[x][i]; p != -1 {
+				fa[x][i+1] = fa[p][i]
 			} else {
-				pa[x][i+1] = -1
+				fa[x][i+1] = -1
 			}
 		}
 	}
-	return pa
+
+	return fa
 }
 
 func (pa *TreeAncestor) GetKthAncestor(node int, k int) int {
