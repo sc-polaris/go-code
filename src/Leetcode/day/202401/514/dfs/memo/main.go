@@ -16,25 +16,38 @@ func findRotateSteps(s string, t string) int {
 		pos[b-'a'] = i // 更新下标
 	}
 
-	// 先计算出每个字母的首次出现的下标
-	// 由于 s 是环形的，循环结束后的 pos 就刚好是 right[n-1]
+	// 先酸楚每个字母第一次出现的下标
+	// 由于 s 是环形的，循环结束后的 pos 刚好就是 right[n-1]
 	for i := n - 1; i >= 0; i-- {
 		pos[s[i]-'a'] = i
 	}
-	// 计算每个 s[i] 右边 a-z 的最近下标（左边没有就从 0 往右找）
+	// 计算每个 s[i] 右边 a-z 的最近下标（右边没有就从 0 往右找）
 	right := make([][26]int, n)
 	for i := n - 1; i >= 0; i-- {
 		right[i] = pos
 		pos[s[i]-'a'] = i // 更新下标
 	}
 
-	// dfs(j,i) 表示拼写后缀 t[j] 到 t[m-1]，此时 12:00 方向为 s[i] 时的最小旋转次数
+	memo := make([][]int, m)
+	for i := range memo {
+		memo[i] = make([]int, n)
+		for j := range memo[i] {
+			memo[i][j] = -1 // -1 表示没有计算过
+		}
+	}
+
 	var dfs func(int, int) int
-	dfs = func(j int, i int) int {
+	dfs = func(j int, i int) (res int) {
 		if j == m {
 			return 0
 		}
-		if s[i] == t[j] { // 无需旋转
+		p := &memo[j][i]
+		if *p != -1 { // 之前计算过
+			return *p
+		}
+		// defer 在 return 之后执行
+		defer func() { *p = res }() // 记忆化
+		if s[i] == t[j] {           // 无需旋转
 			return dfs(j+1, i)
 		}
 		// 左边最近 or 右边最近，取最小值
@@ -54,7 +67,6 @@ func findRotateSteps(s string, t string) int {
 		}
 		return min(res1, res2)
 	}
-
 	return dfs(0, 0) + m
 }
 
