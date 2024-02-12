@@ -6,8 +6,9 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-func inorderTraversal(root *TreeNode) (ans []int) {
+func postorderTraversal(root *TreeNode) (ans []int) {
 	var stk []*TreeNode
+	var prev *TreeNode
 	for root != nil || len(stk) > 0 {
 		for root != nil {
 			stk = append(stk, root)
@@ -15,8 +16,14 @@ func inorderTraversal(root *TreeNode) (ans []int) {
 		}
 		root = stk[len(stk)-1]
 		stk = stk[:len(stk)-1]
-		ans = append(ans, root.Val)
-		root = root.Right
+		if root.Right == nil || root.Right == prev {
+			ans = append(ans, root.Val)
+			prev = root
+			root = nil
+		} else {
+			stk = append(stk, root)
+			root = root.Right
+		}
 	}
 	return
 }

@@ -6,16 +6,15 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-func postorderTraversal(root *TreeNode) (ans []int) {
-	var dfs func(*TreeNode)
+func preorderTraversal(root *TreeNode) (ans []int) {
+	var dfs func(node *TreeNode)
 	dfs = func(root *TreeNode) {
 		if root == nil {
 			return
 		}
-
+		ans = append(ans, root.Val)
 		dfs(root.Left)
 		dfs(root.Right)
-		ans = append(ans, root.Val)
 	}
 	dfs(root)
 	return
