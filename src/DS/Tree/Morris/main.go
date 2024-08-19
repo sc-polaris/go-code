@@ -1,4 +1,4 @@
-package mirror
+package Morris
 
 type TreeNode struct {
 	Val   int
