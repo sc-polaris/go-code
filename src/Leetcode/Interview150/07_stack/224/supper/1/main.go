@@ -1,4 +1,4 @@
-package supper
+package main
 
 import (
 	"math"
