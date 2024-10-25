@@ -1,4 +1,4 @@
-package main
+package _175
 
 /*
 	有 n 位玩家在进行比赛，玩家编号依次为 0 到 n - 1 。
