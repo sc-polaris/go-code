@@ -1,6 +1,6 @@
 package main
 
-import "github.com/emirpasic/gods/trees/redblacktree"
+import "github.com/emirpasic/gods/v2/trees/redblacktree"
 
 /*
 	实现一个 MyCalendar 类来存放你的日程安排。如果要添加的日程安排不会造成 重复预订 ，则可以存储这个新的日程安排。
@@ -15,24 +15,18 @@ import "github.com/emirpasic/gods/trees/redblacktree"
 */
 
 type MyCalendar struct {
-	*redblacktree.Tree
+	*redblacktree.Tree[int, int]
 }
 
 func Constructor() MyCalendar {
-	t := redblacktree.NewWithIntComparator()
-	t.Put(-1, -1) // 哨兵
-	return MyCalendar{t}
+	return MyCalendar{redblacktree.New[int, int]()}
 }
 
 func (c *MyCalendar) Book(startTime int, endTime int) bool {
-	floor, _ := c.Floor(startTime)
-	if floor.Value.(int) > startTime { // [start,end) 左侧区间的右端点超过了 start
+	if p, ok := c.Ceiling(startTime + 1); ok && p.Value < endTime {
 		return false
 	}
-	if it := c.IteratorAt(floor); it.Next() && it.Key().(int) < endTime { // [start,end) 右侧区间的左端点小于 end
-		return false
-	}
-	c.Put(startTime, endTime) // 可以插入区间 [start,end)
+	c.Put(endTime, startTime)
 	return true
 }
 
