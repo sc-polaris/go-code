@@ -1,6 +1,6 @@
 package main
 
-var mapping = [...]string{"", "", "abc", "def", "ghi", "jkl", "mno", "pqr", "tuv", "wxyz"}
+var mapping = [...]string{"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"}
 
 func letterCombinations(digits string) (ans []string) {
 	n := len(digits)
